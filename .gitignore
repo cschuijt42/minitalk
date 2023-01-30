@@ -1,0 +1,10 @@
+.DS_Store
+*.o
+test
+*.out*
+.vscode/*
+push_swap
+*.a
+*.exe
+*.dSYM
+push_swap_*
