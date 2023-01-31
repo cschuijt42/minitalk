@@ -3,8 +3,8 @@
 test
 *.out*
 .vscode/*
-push_swap
 *.a
 *.exe
 *.dSYM
-push_swap_*
+client
+server
