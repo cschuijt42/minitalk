@@ -19,10 +19,10 @@ all : $(CLIENT) $(SERVER)
 re : fclean all
 
 clean :
-	rm -f $(OBJFILES)
+	rm -f $(CLIENT_OBJ) $(SERVER_OBJ)
 
 fclean :
-	rm -f $(NAME) $(OBJFILES)
+	rm -f $(CLIENT) $(SERVER) $(CLIENT_OBJ) $(SERVER_OBJ)
 
 $(LIBFT_A) : lib/libft/libft.h
 	make -C lib/libft
